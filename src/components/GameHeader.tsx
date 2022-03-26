@@ -19,7 +19,7 @@ const GameHeader: FC<GameHeaderProps> = ({ className = "" }) => {
         src={Logo}
         alt="Rock Paper Scissor Lizard Spock"
       />
-      <GameHeaderScore value={1} />
+      <GameHeaderScore value={state.score} />
     </header>
   );
 };
