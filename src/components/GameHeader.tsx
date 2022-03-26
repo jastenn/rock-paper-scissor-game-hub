@@ -12,7 +12,7 @@ const GameHeader: FC<GameHeaderProps> = ({ className = "" }) => {
   const { state } = useContext(GameContext);
   return (
     <header
-      className={`${className} flex items-center justify-between p-3 md:p-4 ring-[3px] ring-[hsl(217,16%,45%)] rounded`}
+      className={`${className} flex items-center justify-between p-3 md:p-4 ring-[3px] ring-dark-gray rounded`}
     >
       <img
         className="h-14 sm:h-20 md:h-24"

@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         "dark-blue": "hsl(229, 25%, 31%)",
         white: "#FBFBFB",
+        "dark-gray": "hsl(217, 16%, 45%)",
       },
       fontFamily: {
         sans: ["Barlow Semi Condensed", "sans-serif"],
