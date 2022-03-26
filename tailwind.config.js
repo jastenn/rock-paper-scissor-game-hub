@@ -5,6 +5,9 @@ module.exports = {
       screens: {
         sm: "500px",
       },
+      backgroundImage: {
+        pentagon: 'url("/src/assets/images/bg-pentagon.svg")',
+      },
       colors: {
         "dark-blue": "hsl(229, 25%, 31%)",
         white: "#FBFBFB",
