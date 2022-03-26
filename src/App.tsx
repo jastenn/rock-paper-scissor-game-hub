@@ -3,7 +3,7 @@ import Button from "./components/Button";
 import GameArena from "./components/GameArena";
 import GameHeader from "./components/GameHeader";
 import GameRulesModal from "./components/GameRulesModal";
-import GameContextProvider from "./providers/GameContextProvider";
+import GameContextProvider from "./context/GameContextProvider";
 
 function App() {
   const [isRulesActive, setIsRulesActive] = useState(false);

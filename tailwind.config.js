@@ -20,7 +20,8 @@ module.exports = {
         4.5: "1.125rem",
       },
       boxShadow: {
-        "inset-solid": "inset 0 4px 1px rgba(0, 0, 0, .2)",
+        "inset-solid-4": "inset 0 4px 1px rgba(0, 0, 0, .2)",
+        "inset-solid-6": "inset 0 6px 1px rgba(0, 0, 0, .2)",
       },
       fontSize: {
         4.5: "2.5rem",

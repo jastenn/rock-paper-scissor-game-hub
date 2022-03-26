@@ -30,10 +30,10 @@ const GamePiece: FC<GamePieceProps> = ({
   return (
     <button
       type="button"
-      className={`${className} p-3 cursor-default md:cursor-pointer rounded-full bg-gradient-to-t ${gradients[color]} shadow-extrude`}
+      className={`${className} p-3  md:p-4 cursor-default md:cursor-pointer rounded-full bg-gradient-to-t ${gradients[color]} shadow-extrude-5 md:shadow-extrude-6`}
       {...props}
     >
-      <span className="block bg-white p-4.5 h-[4.5rem] aspect-square rounded-full shadow-inset-solid">
+      <span className="flex items-center justify-center bg-white p-4.5 h-[4.5rem] sm:h-[5.5rem] md:h-[6.94rem] aspect-square rounded-full shadow-inset-solid-4 md:shadow-inset-solid-6">
         {children}
       </span>
     </button>

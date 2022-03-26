@@ -1,5 +1,5 @@
 import { FC, useContext } from "react";
-import { GameContext } from "../providers/GameContextProvider";
+import { GameContext } from "../context/GameContextProvider";
 
 import Logo from "../assets/images/logo-bonus.svg";
 

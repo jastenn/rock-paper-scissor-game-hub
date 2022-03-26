@@ -8,7 +8,7 @@ import { COLORS } from "../models/colors";
 
 const GameArena = () => {
   return (
-    <div className="relative bg-pentagon bg-cover bg-no-repeat h-[12.88rem] aspect-square mx-auto mt-[8.5rem]">
+    <div className="relative bg-pentagon bg-center bg-cover bg-no-repeat h-[12.88rem] sm:h-[15rem] md:h-[19.13rem] aspect-square mx-auto mt-[8.5rem]">
       {/* SCISSORS */}
       <GamePiece
         className="absolute left-[50%] top-[-23%] -translate-x-1/2"
@@ -19,7 +19,7 @@ const GameArena = () => {
 
       {/* SPOCK */}
       <GamePiece
-        className="absolute left-0 top-[12%] translate-x-[-60%]"
+        className="absolute left-0 top-[12%] translate-x-[-60%] md:top-[14%]"
         color={COLORS.CYAN}
       >
         <img src={Spock} alt="Spock" />
@@ -27,7 +27,7 @@ const GameArena = () => {
 
       {/* PAPER */}
       <GamePiece
-        className="absolute right-0 top-[12%] translate-x-[60%]"
+        className="absolute right-0 top-[12%] translate-x-[60%] md:top-[14%]"
         color={COLORS.BLUE}
       >
         <img src={Paper} alt="Paper" />

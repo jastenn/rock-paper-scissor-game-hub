@@ -11,14 +11,24 @@
     @apply h-full w-full;
   }
 
-  .shadow-extrude {
+  .shadow-extrude-5 {
     box-shadow: 0 5px 0px var(--tw-shadow-color, black);
     @apply transition-all;
   }
 
-  .shadow-extrude:active {
+  .shadow-extrude-5:active {
     @apply translate-y-[3px];
     box-shadow: 0 2px 0px var(--tw-shadow-color, black);
+  }
+
+  .shadow-extrude-6 {
+    box-shadow: 0 7px 0px var(--tw-shadow-color, black);
+    @apply transition-all;
+  }
+
+  .shadow-extrude-6:active {
+    @apply translate-y-[4px];
+    box-shadow: 0 3px 0px var(--tw-shadow-color, black);
   }
 }
 
