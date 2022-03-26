@@ -6,7 +6,7 @@ function App() {
   return (
     <GameContextProvider>
       <div className="App font-sans font-semibold bg-main min-h-screen text-white">
-        <div className="w-[84%] mx-auto max-w-[43.88rem]">
+        <div className="w-[84%] mx-auto pt-5 max-w-[43.88rem]">
           <GameHeader />
           <GameArena />
         </div>

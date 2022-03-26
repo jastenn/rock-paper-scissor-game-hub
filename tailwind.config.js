@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         "dark-blue": "hsl(229, 25%, 31%)",
+        white: "#FBFBFB",
       },
       fontFamily: {
         sans: ["Barlow Semi Condensed", "sans-serif"],
@@ -13,6 +14,9 @@ module.exports = {
       },
       boxShadow: {
         "inset-solid": "inset 0 4px 1px rgba(0, 0, 0, .2)",
+      },
+      fontSize: {
+        4.5: "2.5rem",
       },
     },
   },
