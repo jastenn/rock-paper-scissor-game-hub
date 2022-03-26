@@ -4,6 +4,8 @@ import { COLORS } from "../models/colors";
 interface GamePieceProps {
   color: COLORS;
   className?: string;
+  name?: string;
+  onClick?: () => void;
 }
 
 const gradients = {
@@ -19,11 +21,17 @@ const gradients = {
     "from-[hsl(189,59%,53%)] to-[hsl(189,58%,57%)] shadow-[hsl(195,54%,45%)]",
 };
 
-const GamePiece: FC<GamePieceProps> = ({ className = "", color, children }) => {
+const GamePiece: FC<GamePieceProps> = ({
+  className = "",
+  color,
+  children,
+  ...props
+}) => {
   return (
     <button
       type="button"
       className={`${className} p-3 cursor-default md:cursor-pointer rounded-full bg-gradient-to-t ${gradients[color]} shadow-extrude`}
+      {...props}
     >
       <span className="block bg-white p-4.5 h-[4.5rem] aspect-square rounded-full shadow-inset-solid">
         {children}
