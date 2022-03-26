@@ -1,4 +1,4 @@
-import { FC, useContext, useEffect } from "react";
+import { FC, useContext } from "react";
 import { GameContext } from "../providers/GameContextProvider";
 
 import Logo from "../assets/images/logo-bonus.svg";
@@ -9,7 +9,7 @@ interface GameHeaderProps {
   className?: string;
 }
 const GameHeader: FC<GameHeaderProps> = ({ className = "" }) => {
-  const { state, dispatch } = useContext(GameContext);
+  const { state } = useContext(GameContext);
   return (
     <header
       className={`${className} flex items-center justify-between p-3 md:p-4 ring-[3px] ring-[hsl(217,16%,45%)] rounded`}
