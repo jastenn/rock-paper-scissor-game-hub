@@ -13,7 +13,7 @@ const GameRulesModal: FC<GameRulesModalProps> = ({ open, onClose }) => {
       <Dialog.Overlay className="hidden md:block md:fixed md:inset-0 md:bg-black/25" />
 
       <div className="absolute bg-white text-dark-blue inset-0 md:inset-y-[unset] md:w-[84%] md:max-w-[25rem] md:rounded-xl md:left-1/2 md:-translate-x-1/2 md:top-32">
-        <div className="text-center  w-[84%] max-w-[21rem] mx-auto mt-[5.75rem] md:w-full md:max-w-none md:mt-0 md:p-8">
+        <div className="text-center  w-[84%] max-w-[21rem] mx-auto mt-[5.75rem] short-only:mt-7 md:w-full md:max-w-none md:mt-0 md:p-8">
           <div className="md:flex md:items-center md:justify-between mb-12 md:mb-6 ">
             <Dialog.Title className="uppercase font-bold text-[2rem] text-center md:leading-[1] md:text-left">
               RULES
