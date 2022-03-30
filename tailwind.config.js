@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       screens: {
         sm: "500px",
+        "short-only": { raw: "(max-height: 580px) and (max-width: 767px)" },
       },
       backgroundImage: {
         pentagon: 'url("/src/assets/images/bg-pentagon.svg")',

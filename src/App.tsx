@@ -13,7 +13,7 @@ function App() {
   };
   return (
     <GameContextProvider>
-      <div className="App font-sans font-semibold bg-main min-h-screen text-white">
+      <div className="App font-sans font-semibold bg-main min-h-screen pb-12 text-white">
         <div className="w-[84%] mx-auto pt-5 max-w-[43.88rem]">
           <GameHeader />
           <GameArena />
