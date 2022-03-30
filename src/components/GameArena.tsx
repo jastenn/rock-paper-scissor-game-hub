@@ -19,10 +19,9 @@ const GameArena = () => {
             return <div>LOSE</div>;
 
           default:
-            return GameArenaPicking;
+            return <GameArenaPicking />;
         }
       })()}
-      <GameArenaPicking />
     </div>
   );
 };
