@@ -1,7 +1,7 @@
 export enum GAME_PIECE {
-  ROCK,
-  PAPER,
-  SCISSOR,
-  LIZARD,
-  SPOCK,
+  ROCK = "Rock",
+  PAPER = "Paper",
+  SCISSORS = "Scissors",
+  LIZARD = "Lizard",
+  SPOCK = "Spock",
 }
